@@ -1,7 +1,6 @@
 import UIKit
 import Alamofire
 
-// MARK: - API
 struct APIManager {
     static let instance = APIManager()
     
