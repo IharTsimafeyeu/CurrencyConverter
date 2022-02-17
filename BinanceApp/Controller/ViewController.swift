@@ -59,7 +59,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: TableViewCell.identifier, for: indexPath) as? TableViewCell {
-            cell.updateInfo(data: dataSource[indexPath.row])
+            cell.setInfo(data: dataSource[indexPath.row])
             return cell
         }
         return UITableViewCell()
