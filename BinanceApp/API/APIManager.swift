@@ -12,7 +12,7 @@ struct APIManager {
         static let assets = "/assets"
     }
     
-    let header: HTTPHeaders = [
+    private let header: HTTPHeaders = [
         "X-CoinAPI-Key": "25D7A788-FA38-4E04-A459-D666F04A757D",
     ]
     

@@ -11,6 +11,7 @@ final class TableViewCell: UITableViewCell {
     private let currencyNameLabel = UILabel()
     private let currencyValueLabel = UILabel()
     
+    //MARK: - Setups
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         addSubviews()
@@ -24,13 +25,9 @@ final class TableViewCell: UITableViewCell {
     
     // MARK: Public
     // MARK: - Setups
-    func updateInfo(data: CurrencyClientModel) {
+    func setInfo(data: CurrencyClientModel) {
         currencyNameLabel.text = data.name
-        var roundedValue = String(format: "%.1f", data.priceUsd)
-        if "\(data.priceUsd)".count > 4 {
-            roundedValue = String(format: "%.4f", data.priceUsd)
-        }
-        currencyValueLabel.text = "\(roundedValue)"
+        currencyValueLabel.text = data.priceUsd
     }
     
     // MARK: Private
