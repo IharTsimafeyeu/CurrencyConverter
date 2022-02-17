@@ -20,7 +20,6 @@ final class ViewController: UIViewController {
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
         APIManager.instance.getAssets() { data in
             self.dataSource = data
         }
