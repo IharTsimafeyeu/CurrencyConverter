@@ -2,5 +2,5 @@
 
 ____
 
-![logo](https://ibb.co/74yxtyx)
+![logo](https://www.imgonline.com.ua/examples/bee-on-daisy.jpg)
 
