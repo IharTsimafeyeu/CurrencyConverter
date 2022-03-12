@@ -1,4 +1,3 @@
-import UIKit
 import Alamofire
 
 struct APIManager {
@@ -15,12 +14,6 @@ struct APIManager {
     private let header: HTTPHeaders = [
         "X-CoinAPI-Key": "25D7A788-FA38-4E04-A459-D666F04A757D",
     ]
-    
-    func getJSON() {
-        AF.request(Constants.baseURL + EndPoint.assets, headers: header).responseJSON { response in
-            print(response)
-        }
-    }
     func getAssets(completion: @escaping(([CurrencyClientModel]) -> Void)) {
         AF.request(
             Constants.baseURL + EndPoint.assets,

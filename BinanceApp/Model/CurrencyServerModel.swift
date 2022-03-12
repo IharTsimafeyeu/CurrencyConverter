@@ -1,4 +1,4 @@
-import UIKit
+import Foundation
 
 struct CurrencyServerModel: Codable {
     let name: String?
