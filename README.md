@@ -1,4 +1,4 @@
-#  CurrencyApp Preview
+#  CurrencyApp
 
 ____
 
