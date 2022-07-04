@@ -21,4 +21,4 @@ Cocoapods
 ```ruby
 pod 'Alamofire', '~> 5.5'
 ```
-![alt text]([https://drive.google.com/drive/u/0/my-drive](https://drive.google.com/drive/u/0/folders/18LtgAiw6pec5zoulABk5LONq8gGDpxgh))
+![alt text](https://drive.google.com/drive/u/0/folders/18LtgAiw6pec5zoulABk5LONq8gGDpxgh)
