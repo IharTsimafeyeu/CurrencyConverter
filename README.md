@@ -10,8 +10,5 @@ UIKit
 Alamofire
 ```
 ```ruby
-SkeletonView
-```
-```ruby
 Cocoapods
 ```
